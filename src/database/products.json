@@ -1,0 +1,110 @@
+{
+    "products":
+    [
+        {
+            "id":1,
+            "title": "nokia1",
+            "type": "phone",
+            "price": 350,
+            "imageURL":"31Z2ee9oYQL.jpg",
+            "description":"Good phone"
+        },
+       
+        {
+            "id":2,
+            "title": "nokia2",
+            "type": "phone",
+            "price": 350,
+            "imageURL":"31Z2ee9oYQL.jpg",
+            "description":"Good phone"
+        },
+       
+        {
+            "id":3,
+            "title": "dell1",
+            "type": "laptop",
+            "price": 350,
+            "imageURL":"laptop.jpg",
+            "description":"Good laptop"
+        },
+        {
+            "id":4,
+            "title": "dell2",
+            "type": "laptop",
+            "price": 350,
+            "imageURL":"laptop.jpg",
+            "description":"Good laptop"
+        },
+       
+        {
+            "id":5,
+            "title": "nokia3",
+            "type": "phone",
+            "price": 350,
+            "imageURL":"31Z2ee9oYQL.jpg",
+            "description":"Good phone"
+        },
+       
+        {
+            "id":6,
+            "title": "nokia4",
+            "type": "phone",
+            "price": 350,
+            "imageURL":"31Z2ee9oYQL.jpg",
+            "description":"Good phone"
+        },
+        {
+            "id":7,
+            "title": "nokia5",
+            "type": "phone",
+            "price": 350,
+            "imageURL":"31Z2ee9oYQL.jpg",
+            "description":"Good phone"
+        },
+       
+        {
+            "id":8,
+            "title": "laptop3",
+            "type": "laptop",
+            "price": 350,
+            "imageURL":"laptop.jpg",
+            "description":"Good laptop"
+        },
+       
+        {
+            "id":9,
+            "title": "laptop4",
+            "type": "laptop",
+            "price": 350,
+            "imageURL":"laptop.jpg",
+            "description":"Good laptop"
+        },
+        {
+            "id":10,
+            "title": "laptop5",
+            "type": "laptop",
+            "price": 350,
+            "imageURL":"laptop.jpg",
+            "description":"Good laptop"
+        },
+       
+        {
+            "id":11,
+            "title": "nokia6",
+            "type": "phone",
+            "price": 350,
+            "imageURL":"31Z2ee9oYQL.jpg",
+            "description":"Good phone"
+        },
+       
+        {
+            "id":12,
+            "title": "nokia7",
+            "type": "phone",
+            "price": 350,
+            "imageURL":"31Z2ee9oYQL.jpg",
+            "description":"Good phone"
+        }
+    ]
+
+}

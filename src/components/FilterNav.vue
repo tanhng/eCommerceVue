@@ -14,6 +14,9 @@
       <li class="nav-item button">
         <button class="nav-link"  v-on:click="updateType('laptop')"  href="#">Laptop</button>
       </li>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search"  placeholder="Search by name here" v-model="searchData" v-on:change="process()" aria-label="Search">
+      </form>
     </ul>
   </div>
 </nav>
@@ -23,6 +26,11 @@
 
 export default {
   name: 'FilterNav',
+  data(){
+    return {
+      searchData: null,
+    }
+  },
   props:['productType'],
   components: {
 
@@ -30,6 +38,9 @@ export default {
   methods:{
     updateType: function(type){
       this.$emit('productTypeWasUpdated',type);
+    },
+    process: function(){
+      this.$emit('productSearchWasUpdated',this.searchData);
     }
   }
 }

@@ -5,8 +5,8 @@
             <img class="card-img-top" :src="require(`../assets/${item.imageURL}`)" alt="Card image cap">
             <div class="card-body">
         <h5 class="card-title">{{item.title}}</h5>
-        <p class="card-text">{{item.description}}</p>
-        <a href="#" class="btn btn-primary">Add to cart</a>
+        <p class="card-text">{{item.description}}<p>
+        <h4 class="card-title">${{item.price}}</h4>
             </div>
         </div>
     </div>
